@@ -1,0 +1,24 @@
+<app-dashboard-component></app-dashboard-component>
+
+<div id="petinfo">
+    <h1>Delete Pet Information:</h1>
+    <form (ngSubmit)="deletePet()">
+        <label >Dog or Cat? </label>
+        <select name="dogcat" id="dogcat" [(ngModel)]="pet.isDog" required>
+            <option value="yes">Dog</option>
+            <option value="no">Cat</option>
+        </select><br>
+
+        <label for="petid">Pet Id?</label>
+        <input type="text" id="petid" [(ngModel)]="pet.petid" name="pet.petid" required><br>
+        <b><label id="deletepet">Are you sure you want to delete this pet? </label></b>
+        <select name="optionsyesno" [(ngModel)]="pet.optionsyesno" id="optionsyesno" required>
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+        </select><br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</div>
+
+
+
