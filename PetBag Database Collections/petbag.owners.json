@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "689fe4595b3a437fd5304c95"
+  },
+  "firstName": "Jackie",
+  "lastName": "Smith",
+  "hasPaid": false,
+  "hasCheckedIn": true,
+  "pets": [],
+  "_class": "com.codingwithkaylah.model.Owner"
+},
+{
+  "_id": {
+    "$oid": "68a0c49265cb8c28711a6a6c"
+  },
+  "firstName": "Cindy",
+  "lastName": "Henry",
+  "hasPaid": false,
+  "hasCheckedIn": true,
+  "pets": [],
+  "_class": "com.codingwithkaylah.model.Owner"
+},
+{
+  "_id": {
+    "$oid": "68a0c86b65cb8c28711a6a70"
+  },
+  "firstName": "Daisy",
+  "lastName": "Turner",
+  "hasPaid": false,
+  "hasCheckedIn": true,
+  "pets": [],
+  "_class": "com.codingwithkaylah.model.Owner"
+}]

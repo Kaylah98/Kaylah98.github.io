@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6891290ac8620feca6a48fe8"
+  },
+  "id": 3223,
+  "cageNumber": 1,
+  "isCageReady": "true"
+},
+{
+  "_id": {
+    "$oid": "6893b2ac2c57a5afb1b4ac31"
+  },
+  "id": 2445,
+  "cageNumber": 2,
+  "isCageReady": "true"
+}]

@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "689bd6650974678d4e0f4605"
+  },
+  "owner": {
+    "$ref": "owners",
+    "$id": {
+      "$oid": "689bce9475755699419a1119"
+    }
+  },
+  "firstName": "Roxy",
+  "breed": "Pitbull",
+  "age": 1,
+  "numOfDays": 1,
+  "isDog": true,
+  "weight": 33,
+  "isGroomed": false,
+  "_class": "com.codingwithkaylah.model.Dog"
+},
+{
+  "_id": {
+    "$oid": "689ea940f50151f33d079643"
+  },
+  "owner": {
+    "$ref": "owners",
+    "$id": {
+      "$oid": "689ea940f50151f33d079642"
+    }
+  },
+  "firstName": "Shoe",
+  "breed": "Pitbull",
+  "age": 1,
+  "numOfDays": 1,
+  "isDog": true,
+  "weight": 45,
+  "isGroomed": true,
+  "_class": "com.codingwithkaylah.model.Dog"
+},
+{
+  "_id": {
+    "$oid": "689eac0df50151f33d079648"
+  },
+  "owner": {
+    "$ref": "owners",
+    "$id": {
+      "$oid": "689eac0df50151f33d079647"
+    }
+  },
+  "firstName": "Mac",
+  "breed": "Pitbull",
+  "age": 1,
+  "numOfDays": 11,
+  "isDog": true,
+  "weight": 22,
+  "isGroomed": true,
+  "_class": "com.codingwithkaylah.model.Dog"
+}]

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "6893b0d42c57a5afb1b4ac16"
+  },
+  "id": 2,
+  "firstName": "Mittens",
+  "breed": "Siamese",
+  "age": 1,
+  "numOfDays": "4",
+  "owner": "Henry",
+  "isDog": "false",
+  "weight": 10.5
+},
+{
+  "_id": {
+    "$oid": "68a0c86b65cb8c28711a6a71"
+  },
+  "owner": {
+    "$ref": "owners",
+    "$id": {
+      "$oid": "68a0c86b65cb8c28711a6a70"
+    }
+  },
+  "firstName": "AJ",
+  "breed": "Siamese",
+  "age": 1,
+  "numOfDays": 1,
+  "isDog": false,
+  "weight": 22,
+  "isGroomed": false,
+  "_class": "com.codingwithkaylah.model.Cat"
+}]
