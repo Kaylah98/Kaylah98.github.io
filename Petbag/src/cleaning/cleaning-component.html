@@ -1,0 +1,20 @@
+
+
+<app-dashboard-component></app-dashboard-component>
+<form (ngSubmit)="updateCleanCage()" #form="ngForm">
+<div id="cleancage">
+    <h1>What cage needs to be cleaned?:</h1>
+     <label>Cage Number: </label>
+    <input type="number" name="cageNumber" [(ngModel)]="cage.cageNumber"><br><br>
+    <input type="submit" value="Submit" id="submit">
+</div>
+</form>
+
+<form (ngSubmit)="cageStatus()" #form="ngForm">
+<div id="cageready">
+    <h1>What cage is ready?:</h1>
+     <label>Cage Number: </label>
+    <input type="number" name="cageNumber2" [(ngModel)]="cage.isCageReady"><br><br>
+    <input type="submit" value="Submit" id="readysubmit">
+</div>
+</form>

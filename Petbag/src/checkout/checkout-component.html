@@ -1,0 +1,25 @@
+<app-dashboard-component></app-dashboard-component>
+
+<div id="petcheckout">
+    <h1>Enter Pet Information:</h1>
+    <form (ngSubmit)="onSubmit()">
+        <label for="dogcat">Dog or Cat? </label>
+        <select name="dogcat" id="dogcat" [(ngModel)]="pet.dogcat">
+            <option value="yes">Dog</option>
+            <option value="no">Cat</option>
+        </select><br>
+        <label for="petid">Pet Id?</label>
+        <input type="string" id="petid" [(ngModel)]="pet.petid" name="petid"><br>
+       
+        <label for="groomdog">Was dog groomed? Dogs only </label>
+        <select name="petgroom" [(ngModel)]="pet.petgroom" id="petgroom">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
+        <input type="submit" value="Finished" id="continue">
+    </form>
+</div>
+<br>
+<br>
+
+

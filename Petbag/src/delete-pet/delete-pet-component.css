@@ -1,0 +1,12 @@
+#petinfo{
+    text-align: center;
+}
+
+#deletepet{
+    color: red;
+    margin-top: 15px;
+}
+
+#submit {
+    margin-top: 15px;
+}
