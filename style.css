@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(180deg,rgba(47, 0, 255, 1) 0%, rgba(253, 29, 29, 1) 48%, rgba(252, 176, 69, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}   
+
+#capstoneclass, #myName{
+    text-align: center;
+    color: white;
+}
+#myPicture {
+    width: 200px;
+    height: 200px;
+}
+
+.explanation{
+    
+    max-width: 800px;
+    text-align: justify;
+    margin:0 auto;
+}
+
+
