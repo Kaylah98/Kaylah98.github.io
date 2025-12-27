@@ -1,0 +1,73 @@
+html {
+    background: linear-gradient(180deg, rgba(253, 201, 128, 1) 0%, rgba(187, 181, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#kaylahimg {
+    height: 200px;
+    width: 180px;
+}
+
+#kaylahname {
+    font-size: 20px;
+    position: absolute;
+    bottom: -25px;
+
+
+}
+
+#img-with-name {
+    position: relative;
+    display: inline-flex;
+    top: 40px;
+    left: 20px;
+
+}
+
+#sections {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    flex-direction: row;
+    gap: 200px;
+
+}
+
+#interests, #projects, #education {
+    width: 307.21px;
+    height: 209.833px;
+
+}
+#introduction {
+    height: auto;
+    width: 700px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    margin: 0;
+    font-size: 20px;
+}
+#introduction dd {
+   text-align: justify;
+    font-size: 20px;
+    margin: 0;
+}
+
+#introduction dt {
+    text-align: center;
+} 
+
+body {
+     height: 840px;
+    
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *:after {
+    box-sizing: inherit;
+}
+
